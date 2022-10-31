@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <form action="" method="get" autocapitalize="on" autocomplete="on">
+        <label for="firstname"> First Name:</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Enter your First Name" value="Mohammad" readonly> <br> <br>
+        <label for="lastname"> Last Name: </label>
+        <input type="text" id="lastname" name="lastname" placeholder="Enter your Lirst Name" value="Mazhar" disabled> <br> <br>
+        <label for="phone">Phone No:</label>
+        <input type="number" id="phone" name="phone" placeholder="Enter your Phone No"> <br><br>
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email ID" required> <br><br>
+        <label for="password">New Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter min 6 digits password" required><br><br>
+        <label for="password">Confirm Password:</label>
+        <input type="password" placeholder="Confirm Password" required> <br><br>
+        <label for="gender">Select Gender</label> <br><br>
+        <input type="radio" id="gender" name="Male" value="male"> Male
+        <input type="radio" id="gender" name="Male" value="female"> Female
+        <input type="radio" id="gender" name="Male" value="Other"> Other <br><br><br>
+        <label for="birth">Date of Birth:</label>
+        <input type="date" id="date" name="date" max="2008-01-01" min="2022-10-31"> <br><br>
+        <label for="religion:">Religion</label>
+        <select name="religion" id="religion">Religion
+            <option value="islam">Islam</option>
+            <option value="hindu">Hindu</option>
+            <option value="Christian">Christian</option>
+            <option value="other">Other</option>
+        </select>
+        
+        <input type="search">
+        <input type="submit" name="search" value="Search"> <br><br><br>
+        Set a time:
+        <input type="time" name="" id=""> <br><br>
+        <label for="url">Add your website URL:</label>
+        <input type="url" name="url" id="url">  <br><br><br>
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br><br>
+        <p>Terms & Condition</p>
+        <input type="checkbox"> I have read all these and agree. <br><br>
+        <input type="submit" value="Sign Up">
+
+        
+    </form> <br><br><br>
+
+    
+       
+        
+  
+</body>
+</html>
